@@ -1,0 +1,127 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Very light blue background color */
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Limit maximum width */
+    margin: 0 auto; /* Center section horizontally */
+}
+
+h2 {
+    color: #343a40;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Anchor link styles */
+a[href="#anchor-target"] {
+    display: block; /* Ensure it takes up full width */
+    text-align: center; /* Center the content horizontally */
+    margin-top: 20px; /* Space between the YouTube video and the anchor link */
+    color: #007bff; /* Text color */
+    text-decoration: none; /* Remove default underline */
+}
+
+a[href="#anchor-target"]:hover {
+    color: #0056b3; /* Change text color on hover */
+}
+
+#tableau-section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+#tableau-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tableauPlaceholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+#image-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Ensure the image section follows the same width constraints as other sections */
+#image-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
